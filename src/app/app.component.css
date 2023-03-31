@@ -1,0 +1,33 @@
+.button {
+    background: #ffffff;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 2%;
+    padding: 10px;
+}
+.activebutton {
+    background:rgb(247 80 35);
+    color: #ffffff;
+}
+
+.backtheme {
+    background-color:lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items:center;  
+    width: 100%;
+}
+.imgcontent {
+    margin: 3%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start  
+}
